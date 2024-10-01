@@ -1,4 +1,4 @@
-import { access, mkdir, readdir } from 'node:fs/promises';
+import { access, readdir } from 'node:fs/promises';
 import { constants } from 'node:fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
